@@ -23,7 +23,8 @@ function timer () {
 	if (mins < 10) mins = "0" + mins;
 	if (hrs < 10) hrs = "0" + hrs;
 
-	time_el.innerText = ${hrs}:${mins}:${secs};
+	time_el.innerText = `${hrs}:${mins}:${secs}`;
+
 }
 
 function start () {
