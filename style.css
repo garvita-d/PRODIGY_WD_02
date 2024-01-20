@@ -1,25 +1,25 @@
-:root {
-	--primary: #3498db;
-	--dark: #2c3e50;
-	--darkdark: #1f2b38;
-	--light: #ecf0f1;
-	--bg: #34495e;
-}
+:root{
+  --primary: #8d4c06;
+  --dark: #a97225;
+  --darkdark: #2e1f0c;
+  --light: #ecf0f1;
+  --bg: #5e5034;
 
+}
 * {
-	margin: 0;
-	box-sizing: border-box;
-	font-family: 'Fira Sans', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-	background-color: var(--bg);
-	color: var(--light);
+body{
+  background-color: var(--bg);
+  color: var(--light);
 }
 
 .watch {
 	text-align: center;
-	background: linear-gradient(135deg, var(--darkdark) 0%, #34495e 100%);
+	background: linear-gradient(135deg, var(--darkdark) 0%, #5e5034 100%);
 	width: 100%;
 	max-width: 360px;
 	margin: 4rem auto;
@@ -57,7 +57,7 @@ body {
 	z-index: 1;
 
 	color: #FFF;
-	background: linear-gradient(135deg, var(--primary) 0%, #1f2b38 100%);
+	background: linear-gradient(135deg, var(--primary) 0%, #2e1f0c 100%);
 	transition: 0.4s ease;
 	user-select: none;
 	overflow: hidden;
@@ -69,7 +69,7 @@ body {
 }
 
 .controls button:active {
-	background: linear-gradient(135deg, var(--dark) 0%, #2c3e50 100%);
+	background: linear-gradient(135deg, var(--dark) 0%, #2e1f0c 100%);
 }
 
 .controls button::before {
